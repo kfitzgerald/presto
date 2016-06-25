@@ -139,4 +139,10 @@
             <unpack />
         </artifact>
     </artifactSet>
+
+    <artifactSet to="plugin/baseid">
+        <artifact id="${project.groupId}:presto-baseid:zip:${project.version}">
+            <unpack />
+        </artifact>
+    </artifactSet>
 </runtime>
